@@ -1,0 +1,45 @@
+﻿javac : src\main\java\com\
+portfolio\backend\controll
+er\UserController.java:125
+: error: ';' expected
+At line:1 char:1
++ javac src/main/java/com/
+portfolio/backend/controll
+er/UserController.j ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (s  
+  rc\main\java\c...r: '   
+ ;' expected:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+        Optional<User> us
+                         ^
+src\main\java\com\portfoli
+o\backend\controller\UserC
+ontroller.java:126: 
+error: ';' expected
+            
+serOpt.isEmpty()) {
+                          
+  ^
+src\main\java\com\portfoli
+o\backend\controller\UserC
+ontroller.java:154: 
+error: reached end of 
+file while parsing
+    resetResponse.put("mes
+sage","Password reset 
+successfully");return Resp
+onseEntity.ok(resetRespons
+e);
+                          
+                          
+                          
+                         ^
+3 errors

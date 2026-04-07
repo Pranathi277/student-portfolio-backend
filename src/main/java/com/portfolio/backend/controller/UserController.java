@@ -122,8 +122,8 @@ public class UserController {
     @PostMapping("/reset-password")
     @Transactional
     public ResponseEntity<Map<String, String>> resetPassword(@RequestBody Map<String, String> request) {
-        String email = request.get("email");
-        String otp = request.get("otp");
+        String email = request.get("email") != null ? request.get("email").trim() : null;
+        String otp = request.get("otp") != null ? request.get("otp").trim() : null;
         String newPassword = request.get("newPassword");
 
         Optional<User> userOpt = userRepository.findByEmail(email);
