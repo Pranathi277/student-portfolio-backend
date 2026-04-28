@@ -1,0 +1,14 @@
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\entity\User.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\service\EmailService.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\controller\UserController.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\repository\PasswordResetTokenRepository.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\controller\ProjectController.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\BackendApplication.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\entity\PasswordResetToken.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\entity\Activity.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\entity\Project.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\repository\ActivityRepository.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\repository\UserRepository.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\config\WebConfig.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\repository\ProjectRepository.java
+C:\FSAD\Backend\src\main\java\com\portfolio\backend\controller\ActivityController.java

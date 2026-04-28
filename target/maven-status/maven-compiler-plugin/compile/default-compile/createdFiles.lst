@@ -1,0 +1,14 @@
+com\portfolio\backend\repository\UserRepository.class
+com\portfolio\backend\config\WebConfig.class
+com\portfolio\backend\BackendApplication.class
+com\portfolio\backend\controller\UserController.class
+com\portfolio\backend\repository\PasswordResetTokenRepository.class
+com\portfolio\backend\repository\ProjectRepository.class
+com\portfolio\backend\entity\Activity.class
+com\portfolio\backend\entity\User.class
+com\portfolio\backend\entity\Project.class
+com\portfolio\backend\service\EmailService.class
+com\portfolio\backend\controller\ProjectController.class
+com\portfolio\backend\entity\PasswordResetToken.class
+com\portfolio\backend\repository\ActivityRepository.class
+com\portfolio\backend\controller\ActivityController.class
