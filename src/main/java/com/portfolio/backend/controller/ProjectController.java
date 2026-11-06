@@ -22,7 +22,7 @@ public class ProjectController {
     }
 
     @GetMapping("/user/{email}")
-    public List<Project> getUserProjects(@PathVariable String email) {
+    public List<Project> getUserProjects(@PathVariable("email") String email) {
         return projectRepository.findByAuthorEmail(email);
     }
 
@@ -32,7 +32,7 @@ public class ProjectController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Project> updateProject(@PathVariable Long id, @RequestBody Project projectDetails) {
+    public ResponseEntity<Project> updateProject(@PathVariable("id") Long id, @RequestBody Project projectDetails) {
         Optional<Project> projectOpt = projectRepository.findById(id);
         if (projectOpt.isPresent()) {
             Project project = projectOpt.get();
@@ -51,7 +51,7 @@ public class ProjectController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteProject(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteProject(@PathVariable("id") Long id) {
         projectRepository.deleteById(id);
         return ResponseEntity.ok().build();
     }
